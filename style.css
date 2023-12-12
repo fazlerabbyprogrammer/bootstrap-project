@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo h2{
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+#navigation{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navigation ul{
+    display: flex;
+    margin-right: 20px;
+}
+
+#navigation > ul > li{
+    list-style: none;
+
+    margin: 0 5px;
+    padding: 15px 20px;
+    border-right: 1px solid white;
+    margin-left: -5px;
+   
+    
+   
+}
+
+#navigation > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+    
+   
+}
+
+#navigation > ul > li:first-child{
+    border-left: 1px solid white;
+}
+
+#navigation > ul > li:hover{
+    background-color: blueviolet;
+}
